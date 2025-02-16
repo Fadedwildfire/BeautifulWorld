@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<title>Beutiful World.com</title>
+<link href="styles.css" rel="stylesheet">
+  </head>
+   <body>
+   <h1 id="title">Beutiful World Survey</h1>
+   <p id="description">Please fill out all required information</p>
+
+   <form id="survey-form">
+     <label id="name-label">Name:<input id="name" type="text" placeholder="Enter name" required></label>
+     <label id="email-label">Email:<input id="email" type="email" placeholder="Enter email" required></label>
+     <label id="number-label">Age:<input id="number" type="number" min="12" max="120" placeholder="Enter age"></label>
+     <hr>
+     <label>Why have you decided to vist our website<select id="dropdown">
+       <option value="">(Select 1)</option>
+       <option value="1">I want to learn more about the world</option>
+       <option value="2">To learn about endangered speices</option>
+       <option value="3">To talk about the political world view with jaden smith</option>
+       <option value="4">Other</option>
+       </select></label>
+       <hr>
+       <legend>Account type</legend>
+       <label><input class="radio" type="radio" type="radio" name="account" class="inline name="account-type" value="account" checked> Personal</label>
+       <label><input class="radio" type="radio" type="radio" name="account" class="inline" name="account-type" value="account">  School</label>
+       <hr><span>What would you like to see improved?</span>
+       <input type="checkbox" value="ben"><label></label>
+       <label></label>
+       
+        <label><input type="checkbox" value="account"></label>
+       <textarea></textarea>
+        <label><input id="submit" type="submit"></label>
+    </form>
+   </body>
+</html>
